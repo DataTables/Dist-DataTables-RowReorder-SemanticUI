@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowreorder-se",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "RowReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/rowReorder.semanticui.css"
@@ -22,7 +22,7 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-se": ">=1.10.13",
-        "datatables.net-rowreorder": ">=1.2.0"
+        "datatables.net-se": "^1.10.15",
+        "datatables.net-rowreorder": "1.2.1"
     }
 }
