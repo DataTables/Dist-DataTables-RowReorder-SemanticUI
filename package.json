@@ -3,7 +3,7 @@
     "version": "1.2.2",
     "description": "RowReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
-        "css/rowReorder.semanticui.css"
+        "css/**/*.css"
     ],
     "main": "./js/rowReorder.semanticui.js",
     "keywords": [
