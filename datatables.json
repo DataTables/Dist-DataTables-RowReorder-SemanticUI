@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/rowReorder.semanticui.css",
-        "css/rowReorder.semanticui.min.css"
-    ],
     "js": [
         "js/rowReorder.semanticui.js",
         "js/rowReorder.semanticui.min.js"
     ],
+    "css": [
+        "css/rowReorder.semanticui.css",
+        "css/rowReorder.semanticui.min.css"
+    ],
+    "types": [
+        "types/rowReorder.semanticUI.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/RowReorder",
-    "last-sync": "2d5317cd244374346199da618c3869d4aef63f90",
     "last-tag": "1.2.7"
 }

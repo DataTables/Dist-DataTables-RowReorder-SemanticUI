@@ -1,30 +1,49 @@
 {
     "name": "datatables.net-rowreorder-se",
+    "description": "RowReorder for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "main": "js/rowReorder.semanticui.js",
+    "style": "css/rowReorder.semanticui.css",
     "version": "1.2.7",
-    "description": "RowReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/rowReorder.semanticui.js",
     "keywords": [
-        "row reordering",
-        "DataTables",
+        "RowReorder",
+ "Row Reordering",
+        "Semantic",
+ "SemanticUI",
+ "Semantic UI",
+        "Datatables",
         "jQuery",
         "table",
-        "Semantic UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-rowreorder": ">=1.2.7",
+        "datatables.net-se": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-se": "^1.10.15",
-        "datatables.net-rowreorder": "1.2.7"
-    },
-    "style": "css/rowReorder.semanticui.css"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-SemanticUI.git"
+    }
 }
