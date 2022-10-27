@@ -4,7 +4,7 @@
     "main": "js/rowReorder.semanticui.js",
     "module": "js/rowReorder.semanticui.mjs",
     "style": "css/rowReorder.semanticui.css",
-    "types": "./types/rowReorder.semanticUI.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",
