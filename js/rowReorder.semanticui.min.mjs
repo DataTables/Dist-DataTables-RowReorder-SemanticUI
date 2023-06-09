@@ -1,4 +1,4 @@
 /*! Semanic UI styling wrapper for RowReorder
  * © SpryMedia Ltd - datatables.net/license
  */
-import $ from"jquery";import DataTable from"datatables.net-se";import RowReorder from"datatables.net-rowreorder";export default DataTable;
+import jQuery from"jquery";import DataTable from"datatables.net-se";import RowReorder from"datatables.net-rowreorder";let $=jQuery;export default DataTable;
