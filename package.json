@@ -5,7 +5,7 @@
     "module": "js/rowReorder.semanticui.mjs",
     "style": "css/rowReorder.semanticui.css",
     "types": "./types/rowReorder.semanticui.d.ts",
-    "version": "1.5.1",
+    "version": "2.0.0-beta.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -19,26 +19,14 @@
         "SemanticUI",
         "Semantic UI",
         "Datatables",
-        "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowreorder": "1.5.1",
-        "datatables.net-se": ">=1.11.0",
-        "jquery": ">=1.7"
+        "datatables.net-rowreorder": "2.0.0-beta.1",
+        "datatables.net-se": "3.0.0-0"
     },
-    "moduleType": [
-        "globals",
-        "amd",
-        "node"
-    ],
-    "ignore": [
-        "composer.json",
-        "datatables.json",
-        "package.json"
-    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
@@ -48,6 +36,6 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-SemanticUI.git"
+        "url": "git+https://github.com/DataTables/RowReorder.git"
     }
 }
