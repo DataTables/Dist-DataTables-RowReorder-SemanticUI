@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/rowReorder.semanticui.d.ts",
+            "style": "./css/rowReorder.semanticui.css",
             "import": "./js/rowReorder.semanticui.mjs",
-            "default": "./js/rowReorder.semanticui.mjs",
-            "require": "./js/rowReorder.semanticui.js"
+            "require": "./js/rowReorder.semanticui.js",
+            "default": "./js/rowReorder.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
